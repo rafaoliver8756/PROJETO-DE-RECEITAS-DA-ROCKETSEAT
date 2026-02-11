@@ -1,3 +1,13 @@
+* {
+    padding: 0;
+    margin: 0; /*pq?*/
+}
+:root { /* o root seleciona o elemento raiz do documento o HTML e aplica os estilos em todo os documentos */
+    font-family: "Alice", serif;
+    line-height: 150%; /*altura de linha*/
+    color: #573824;
+}
+
 body {
     background-color: #573824;
     background-image: url(assets/fundo-receita.png);
@@ -11,5 +21,44 @@ width: 800px;
 padding: 24px;
 background-color: #F0E8C2;
 border-radius: 24px;
-margin: 48px auto; /*48px para o espaço em cima e em baixo/vertical e auto para centralizar*/
+margin: 48px auto 28px; /*48px para o espaço em cima e em baixo/vertical e auto para centralizar/28 e a margin de baixo*/
+}
+main {
+    padding: 24px;
+
+}
+section + section {
+    margin-top: 24px;
+}
+#about p + p { /*no html tem um id chamado about/aqui estou fazendo a distacia entre p com p*/
+    margin-top: 12px;
+}
+h1 {
+    line-height: 140%; /*altura de linha*/
+    font-size: 40px; /*tamanho da fonte*/
+   
+
+}
+h2 {
+    font-size: 24px;
+    
+
+}
+h1, h2 { /*aqui iremos definir valores tanto para o h1 quanto para o h2*/
+    color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%; 
+}
+
+ul   {
+    padding-left: 24px;
+}
+footer {
+    color: #F0E8C2; /*cor do texto de rodape*/
+    text-align: center;
+    padding-bottom: 48px;
+}
+footer img {
+    vertical-align: middle; /*para deixar o coraçõ no meio do texto*/
+
 }
