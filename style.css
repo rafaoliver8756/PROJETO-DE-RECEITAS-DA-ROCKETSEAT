@@ -1,0 +1,15 @@
+body {
+    background-color: #573824;
+    background-image: url(assets/fundo-receita.png);
+    background-size: cover; /*o cover faz com que a imagem cubra a página toda*/
+    
+
+}
+#page {
+    box-sizing: border-box; /*para tirar o padrão da caixa/valores já definidos pelo navegador*/
+width: 800px;
+padding: 24px;
+background-color: #F0E8C2;
+border-radius: 24px;
+margin: 48px auto; /*48px para o espaço em cima e em baixo/vertical e auto para centralizar*/
+}
